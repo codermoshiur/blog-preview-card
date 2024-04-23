@@ -15,7 +15,7 @@
 ### Links
 
 - Solution URL: []()
-- Live Site URL: []()
+- Live Site URL: [https://codermoshiur.github.io/blog-preview-card/](https://codermoshiur.github.io/blog-preview-card/)
 
 ## My process
 
