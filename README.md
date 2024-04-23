@@ -14,7 +14,7 @@
 
 ### Links
 
-- Solution URL: []()
+- Solution URL: [https://www.frontendmentor.io/solutions/blog-preview-card-using-css-grid-aiuqGAlYog](https://www.frontendmentor.io/solutions/blog-preview-card-using-css-grid-aiuqGAlYog)
 - Live Site URL: [https://codermoshiur.github.io/blog-preview-card/](https://codermoshiur.github.io/blog-preview-card/)
 
 ## My process
