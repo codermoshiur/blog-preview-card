@@ -1,0 +1,125 @@
+@font-face {
+  src: url(./assets/fonts/Figtree-Medium.ttf);
+}
+
+@font-face {
+  src: url(./assets/fonts/Figtree-ExtraBold.ttf);
+}
+
+:root {
+  --yellow: hsl(47, 88%, 63%);
+  --white: hsl(0, 0%, 100%);
+  --grey: hsl(0, 0%, 50%);
+  --black: hsl(0, 0%, 7%);
+  --font-primary: "Figtree Medium", sans-serif;
+  --font-secondary: "Figtree ExtraBold", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-primary);
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.5;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--yellow);
+  display: grid;
+  grid-template-columns: auto;
+  place-content: center;
+}
+
+.card {
+  max-width: 32.7rem;
+  background-color: var(--white);
+  padding: 2.4rem;
+  border: 0.1rem solid var(--black);
+  border-radius: 2rem;
+  margin: 2.4rem;
+  display: grid;
+  grid-template-columns: auto;
+  gap: 2.4rem;
+  box-shadow: 0.8rem 0.8rem 0 var(--black);
+}
+
+.card-img {
+  margin: 0;
+}
+
+.card-img img {
+  width: 100%;
+  height: 20rem;
+  -o-object-fit: cover;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+.card-content {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 1.2rem;
+}
+
+.category a {
+  display: inline-block;
+  color: var(--black);
+  background-color: var(--yellow);
+  padding: 0.4rem 1.2rem;
+  border-radius: 0.4rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-family: var(--font-primary-extra-bold);
+  font-weight: 800;
+}
+
+.pubdate {
+  font-size: 1.2rem;
+}
+
+.title {
+  font-family: var(--font-primary-extra-bold);
+  font-weight: 800;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.description {
+  color: var(--grey);
+  margin: 0;
+}
+
+.card-footer {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  justify-content: start;
+  gap: 1.2rem;
+}
+
+.author-img {
+  width: 3.2rem;
+  height: 3.2rem;
+}
+
+.author-name {
+  font-family: var(--font-primary-extra-bold);
+  font-weight: 800;
+}
+
+.attribution {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.attribution a {
+  color: var(--black);
+  font-family: var(--font-secondary);
+  font-weight: 800;
+}
