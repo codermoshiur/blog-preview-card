@@ -92,6 +92,17 @@ main {
   margin: 0;
 }
 
+.title a:link,
+.title a:visited {
+  text-decoration: none;
+  color: var(--black);
+}
+
+.title a:hover,
+.title a:active {
+  color: var(--yellow);
+}
+
 .description {
   color: var(--grey);
   margin: 0;
