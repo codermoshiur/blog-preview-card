@@ -1,11 +1,11 @@
 @font-face {
   src: url(./assets/fonts/Figtree-Medium.ttf);
-  font-family: "Figtree Medium", sans-serif;
+  font-family: Figtree-Medium;
 }
 
 @font-face {
   src: url(./assets/fonts/Figtree-ExtraBold.ttf);
-  font-family: "Figtree ExtraBold", sans-serif;
+  font-family: Figtree-ExtraBold;
 }
 
 :root {
@@ -13,8 +13,8 @@
   --white: hsl(0, 0%, 100%);
   --grey: hsl(0, 0%, 50%);
   --black: hsl(0, 0%, 7%);
-  --font-primary: "Figtree Medium", sans-serif;
-  --font-secondary: "Figtree ExtraBold", sans-serif;
+  --font-primary: "Figtree-Medium", sans-serif;
+  --font-secondary: "Figtree-ExtraBold", sans-serif;
 }
 
 html {
@@ -24,6 +24,7 @@ html {
 body {
   margin: 0;
   font-family: var(--font-primary);
+  font-display: swap;
   font-weight: 500;
   font-size: 1.4rem;
   line-height: 1.5;
@@ -31,7 +32,7 @@ body {
 
 main {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   background-color: var(--yellow);
   display: grid;
   grid-template-columns: auto;
